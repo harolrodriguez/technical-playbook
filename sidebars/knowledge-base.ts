@@ -2,10 +2,12 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   knowledgeBaseSidebar: [
+    'intro',
     {
       type: 'category',
       label: 'Git Guide',
       items: [
+        'git-guide/intro',
         'git-guide/setup-ssh',
         'git-guide/merge-strategies',
         'git-guide/conflict-resolution',

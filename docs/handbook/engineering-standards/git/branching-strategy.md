@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Branching Strategy
+title: Branching Strategy & Branch Types
 ---
 
-Cómo organizamos las ramas en ACITY: modelo GitFlow, tipos de ramas, convenciones de nombres y reglas de protección.
+Cómo organizamos las ramas en ACITY: modelo GitFlow, tipos de ramas, convenciones de nombres, ciclo de vida y reglas de protección. Esta es la gobernanza de branching que todo el equipo debe seguir.
 
 ## Modelo: GitFlow
 

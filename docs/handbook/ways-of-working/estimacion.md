@@ -3,50 +3,87 @@ sidebar_position: 2
 title: Estimación
 ---
 
-Cómo estimamos con puntos de historia: qué representan, cómo calibrar el equipo y cómo mejorar la precisión con el tiempo.
+Cómo estimamos el trabajo en ACITY: estimación relativa, story points y el proceso de estimación.
 
-## Qué son los puntos de historia
+## Estimación Relativa
 
-Los puntos de historia miden **esfuerzo relativo**, no tiempo absoluto. Un punto no equivale a una hora ni a un día. Equivale a "tan complejo como la historia de referencia que el equipo acordó que vale 1 punto".
+La estimación relativa es una práctica ágil que permite dimensionar el trabajo comparándolo con otros elementos, en lugar de estimarlo en tiempo exacto.
 
-Esto es importante: dos Devs distintos pueden tardar tiempos distintos en completar la misma historia, pero ambos deberían estar de acuerdo en que vale 3 puntos.
+**Ventajas:**
+- Los equipos pueden evaluar con mayor precisión qué tan grande o complejo es un ítem respecto a otro
+- Considera factores como esfuerzo, complejidad e incertidumbre
+- Promueve decisiones más ágiles y realistas, enfocadas en flujo de valor
 
-## Escala de Fibonacci
+## Story Points
 
-Usamos la escala de Fibonacci: **1, 2, 3, 5, 8, 13, 21**.
+**Unidad**: Fibonacci (1, 2, 3, 5, 8, 13, 21)  
+**Responsable**: Equipo de delivery  
+**Momento**: Refinamiento o planificación de sprint
 
-| Puntos | Referencia |
-|--------|-----------|
-| 1 | Cambio trivial, bien entendido, sin incertidumbre |
-| 2 | Tarea pequeña con algo de contexto necesario |
-| 3 | Feature simple con algunas partes móviles |
-| 5 | Feature mediana con dependencias o incertidumbre moderada |
-| 8 | Feature compleja o con mucha incertidumbre |
-| 13 | Feature muy compleja o con alta incertidumbre |
-| 21 | Demasiado grande; hay que partir en historias más pequeñas |
+**Regla clave**: Si una historia supera los 8 puntos, debe ser dividida (slicing) antes de ser planificada en un sprint.
 
-Si una historia vale 21, no se estima: se parte.
+## Proceso de Estimación (3C)
 
-## Proceso de estimación (Planning Poker)
+### 1. Card (Qué estamos estimando)
 
-1. El PO presenta la historia y responde preguntas de clarificación
-2. Cada Dev vota en silencio su estimación
-3. Se revelan todos los votos al mismo tiempo
-4. Si hay divergencia grande (ej: alguien votó 2 y otro votó 8), se discute
-5. Se vuelve a votar hasta llegar a consenso o mayoría
+- El Product Owner presenta la historia o ítem
+- Se comparten criterios de aceptación a nivel general
+- El equipo entiende el objetivo y valor del ítem (no entra aún en detalle técnico profundo)
 
-La discusión es el valor real del proceso. Si todos votan igual, no hay nada que hablar. Si hay divergencia, alguien tiene información que el resto no tiene.
+### 2. Conversation (Construimos entendimiento compartido)
 
-## Velocidad del equipo
+El equipo conversa para aclarar dudas funcionales y técnicas.
 
-La velocidad es el promedio de puntos completados por sprint en los últimos 3-4 sprints. Se usa para planificar, no para presionar.
+**Uso del pivot (historia de referencia):**
+- Primera estimación del equipo: se define una historia base (ej. 3 puntos)
+- Inicio de cada sesión: se recuerda el pivot para alinear criterios
+- Ante dispersión: se vuelve al pivot para recalibrar
 
-Si la velocidad baja, se investiga la causa (deuda técnica, interrupciones, historias mal estimadas) en lugar de exigir más puntos.
+**Criterios de un buen pivot:**
+- Entendido por todo el equipo
+- Representativo (ni muy pequeño ni muy grande)
+- Comparable con otros ítems
 
-## Errores comunes
+**Comparación relativa:**
+- Más simple → menor puntaje
+- Similar → mismo puntaje
+- Más complejo → mayor puntaje
 
-**Estimar en horas**: Convierte la estimación en un compromiso de tiempo. Genera presión y estimaciones infladas.
+**Tres dimensiones clave:**
+- **Complejidad**: Grado de dificultad técnica del trabajo
+- **Esfuerzo**: Cantidad de trabajo necesario para terminar la historia (desarrollo, pruebas, validación)
+- **Incertidumbre**: Nivel de desconocimiento o riesgo asociado al trabajo
 
-**Estimar solo**: La estimación individual pierde el valor de la discusión colectiva.
+### 3. Confirmation (Alineamos y cerramos la estimación)
 
-**No revisar estimaciones pasadas**: Si el equipo consistentemente sobre o subestima cierto tipo de historias, hay que calibrar.
+- El equipo estima usando Fibonacci (1, 2, 3, 5, 8, 13, 21)
+- Se puede usar herramientas como [Planning Poker](https://free-planning-poker.com)
+- Si hay diferencias relevantes (ej. 2, 3, 8, 13):
+  - Se discuten los supuestos
+  - Se busca entendimiento común
+  - Se revota si es necesario
+
+## Slicing (División de Historias > 8 puntos)
+
+Cuando un ítem excede los 8 puntos, debe dividirse en partes más pequeñas que mantengan coherencia y entreguen valor.
+
+**Técnica SPIDR:**
+
+| Técnica | Descripción |
+|---------|------------|
+| **S – Spike** | Crear una historia de investigación para reducir incertidumbre |
+| **P – Paths** | Dividir por flujos alternativos o escenarios (ej: flujo feliz vs excepciones) |
+| **I – Interfaces** | Separar por tipos de interacción (UI, API, integración) |
+| **D – Data** | Dividir según tipos o fuentes de datos |
+| **R – Rules** | Separar por reglas de negocio o validaciones |
+
+**Qué debe cumplir un buen slice:**
+- Tiene valor para el usuario (aunque sea parcial)
+- Es independiente (no bloquea a otros)
+- Se puede probar (criterios claros)
+- Cabe en un sprint
+
+## Referencia
+
+- [Scrum & Agile Model](/handbook/ways-of-working/scrum)
+- [Definition of Ready / Done](/handbook/ways-of-working/definition-of-ready-done)

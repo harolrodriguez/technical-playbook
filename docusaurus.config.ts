@@ -50,6 +50,7 @@ const config: Config = {
         path: 'docs/knowledge-base',
         routeBasePath: 'knowledge-base',
         sidebarPath: require.resolve('./sidebars/knowledge-base.ts'),
+        editUrl: 'https://github.com/your-org/your-repo/tree/main',
       },
     ],
     [

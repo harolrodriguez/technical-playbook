@@ -42,8 +42,9 @@ const sidebars: SidebarsConfig = {
           items: [
             'engineering-standards/git/branching-strategy',
             'engineering-standards/git/conventional-commits',
-            'engineering-standards/git/code-review',
             'engineering-standards/git/pull-requests',
+            'engineering-standards/git/code-review',
+            'engineering-standards/git/merge-policies',
           ],
         },
         {
