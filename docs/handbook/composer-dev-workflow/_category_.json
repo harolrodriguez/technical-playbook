@@ -1,6 +1,11 @@
 {
-  "label": "Composer development Workflow",
+  "label": "Composer Dev Workflow",
   "position": 4,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Composer Dev Workflow",
+    "description": "Cómo Backend, Frontend y QA colaboran usando Gherkin, EARS, Swagger y fixtures para trabajar en paralelo."
+  }
 }

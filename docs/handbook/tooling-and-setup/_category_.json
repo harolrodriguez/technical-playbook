@@ -2,5 +2,10 @@
   "label": "Tooling & Setup",
   "position": 6,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Tooling & Setup",
+    "description": "Entorno local, herramientas aprobadas, uso de IA y proveedores externos."
+  }
 }
