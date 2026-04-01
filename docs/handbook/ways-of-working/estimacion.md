@@ -13,7 +13,7 @@ Esto es importante: dos Devs distintos pueden tardar tiempos distintos en comple
 
 ## Escala de Fibonacci
 
-Usamos la escala de Fibonacci: **1, 2, 3, 5, 8, 13**.
+Usamos la escala de Fibonacci: **1, 2, 3, 5, 8, 13, 21**.
 
 | Puntos | Referencia |
 |--------|-----------|
@@ -22,9 +22,10 @@ Usamos la escala de Fibonacci: **1, 2, 3, 5, 8, 13**.
 | 3 | Feature simple con algunas partes móviles |
 | 5 | Feature mediana con dependencias o incertidumbre moderada |
 | 8 | Feature compleja o con mucha incertidumbre |
-| 13 | Demasiado grande; hay que partir en historias más pequeñas |
+| 13 | Feature muy compleja o con alta incertidumbre |
+| 21 | Demasiado grande; hay que partir en historias más pequeñas |
 
-Si una historia vale 13, no se estima: se parte.
+Si una historia vale 21, no se estima: se parte.
 
 ## Proceso de estimación (Planning Poker)
 

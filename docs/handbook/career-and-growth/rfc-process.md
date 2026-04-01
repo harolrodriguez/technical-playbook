@@ -22,15 +22,21 @@ Un RFC es necesario cuando el cambio:
 
 No es necesario para cambios pequeños, correcciones de bugs o mejoras locales.
 
-## Formato del RFC
+## Cómo abrir un RFC
+
+Un RFC se abre como un **Pull Request** en el repositorio del handbook. El PR es el mecanismo de discusión: los comentarios, sugerencias y la decisión final quedan registrados ahí.
+
+1. Crea una rama con el formato `rfc/titulo-corto`
+2. Agrega o modifica los archivos relevantes del handbook con el cambio propuesto
+3. Abre el PR con el título `RFC: Título del cambio` y completa la descripción usando la plantilla de abajo
+4. Asigna como reviewers al Tech Lead y/o Architect según el alcance
+5. El PR permanece abierto al menos **5 días hábiles** para recibir comentarios del equipo
+6. Se puede convocar una sesión sincrónica si el tema lo amerita
+7. El Architect o Tech Lead toma la decisión y mergea, cierra o solicita cambios al PR
+
+## Plantilla de descripción del PR
 
 ```markdown
-# RFC-XXX: Título del cambio
-
-**Autor**: Nombre
-**Fecha**: YYYY-MM-DD
-**Estado**: Draft | En revisión | Aprobado | Rechazado | Implementado
-
 ## Resumen
 Una o dos oraciones que describen el cambio propuesto.
 
@@ -53,16 +59,6 @@ Pasos concretos para implementar el cambio si se aprueba.
 Aspectos que aún no están resueltos y sobre los que se busca input.
 ```
 
-## Proceso
+## Resultado
 
-1. **Draft**: El autor escribe el RFC y lo comparte con el Tech Lead para una revisión inicial
-2. **En revisión**: Se abre al equipo por al menos 5 días hábiles para comentarios
-3. **Discusión**: Se puede hacer una sesión sincrónica si el tema lo amerita
-4. **Decisión**: El Architect o Tech Lead (según el alcance) toma la decisión con el input recibido
-5. **Implementación**: Si se aprueba, se implementa según el plan documentado
-
-## Dónde viven los RFCs
-
-Los RFCs se guardan en el repositorio del handbook bajo `/rfcs/`. El nombre del archivo sigue el formato `RFC-XXX-titulo-corto.md`.
-
-Los RFCs aprobados e implementados se convierten en la documentación oficial del cambio.
+Si el RFC se aprueba, el PR se mergea y los cambios en el handbook se convierten en la documentación oficial. Si se rechaza, el PR se cierra con un comentario explicando el motivo, quedando el historial de la discusión como referencia.

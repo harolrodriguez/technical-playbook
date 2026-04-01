@@ -1,0 +1,11 @@
+{
+  "label": "Spec-Driven Development",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Spec-Driven Development",
+    "description": "Cómo Backend, Frontend y QA colaboran usando especificaciones (Gherkin, EARS, Swagger y fixtures) para trabajar en paralelo sin bloquearse."
+  }
+}
