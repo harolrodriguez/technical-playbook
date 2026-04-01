@@ -52,4 +52,3 @@ La duración es fija. Si algo no entra en el sprint, se mueve al siguiente o se 
 **Retro sin action items**: Una retro donde se habla pero no se cambia nada es tiempo perdido. Cada retro debe terminar con al menos un cambio concreto.
 
 **Scope creep silencioso**: Si el PO agrega trabajo al sprint sin quitar algo, el equipo lo señala. El sprint tiene capacidad finita.
-el PO agrega trabajo al sprint sin quitar algo, el equipo lo señala. El sprint tiene capacidad finita.
