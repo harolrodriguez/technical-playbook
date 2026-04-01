@@ -1,0 +1,8 @@
+{
+  "label": "Documentation",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Estándares de documentación: READMEs, ADRs y comentarios en código"
+  }
+}

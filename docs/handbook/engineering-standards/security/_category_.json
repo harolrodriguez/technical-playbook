@@ -1,0 +1,8 @@
+{
+  "label": "Security",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Estándares de seguridad transversales: gestión de secrets, scanning de dependencias y principios de mínimo privilegio"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "API Design",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Estándares generales de diseño de APIs: estructura de respuestas, versionado, manejo de errores y documentación"
+  }
+}

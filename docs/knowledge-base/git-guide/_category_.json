@@ -1,0 +1,8 @@
+{
+  "label": "Git Guide",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Guías técnicas profundas sobre Git: configuración, estrategias avanzadas, resolución de conflictos y mantenimiento"
+  }
+}

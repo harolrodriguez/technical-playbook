@@ -1,9 +1,9 @@
 ---
-sidebar_position: 5
-title: GitHub con SSH
+sidebar_position: 1
+title: Setup SSH
 ---
 
-Por qué usamos SSH en lugar de HTTPS para conectarnos a GitHub, cómo configurarlo y cómo verificar que todo funciona.
+Cómo configurar SSH para conectarte a GitHub de forma segura y sin necesidad de autenticarte en cada operación.
 
 ## Por qué SSH
 

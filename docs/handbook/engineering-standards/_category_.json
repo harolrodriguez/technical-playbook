@@ -1,11 +1,8 @@
 {
   "label": "Engineering Standards",
-  "position": 5,
-  "collapsible": true,
-  "collapsed": true,
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "title": "Engineering Standards",
-    "description": "Commits, PRs, code review, branching y documentación técnica."
+    "description": "Estándares transversales que aplican a todo el equipo: Git, calidad de código, seguridad, API design, observabilidad y accesibilidad"
   }
 }

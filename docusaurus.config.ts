@@ -46,6 +46,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'knowledge-base',
+        path: 'docs/knowledge-base',
+        routeBasePath: 'knowledge-base',
+        sidebarPath: require.resolve('./sidebars/knowledge-base.ts'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'frontend',
         path: 'docs/frontend',
         routeBasePath: 'frontend',
@@ -89,6 +98,13 @@ const config: Config = {
           sidebarId: 'handbookSidebar',
           docsPluginId: 'handbook',
           label: 'Handbook',
+          position: 'left',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'knowledgeBaseSidebar',
+          docsPluginId: 'knowledge-base',
+          label: 'Base de conocimientos',
           position: 'left',
         },
         {

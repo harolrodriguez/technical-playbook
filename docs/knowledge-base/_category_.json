@@ -1,0 +1,8 @@
+{
+  "label": "Base de Conocimientos",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Guías técnicas y recursos de aprendizaje para profundizar en temas específicos"
+  }
+}

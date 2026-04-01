@@ -1,0 +1,8 @@
+{
+  "label": "Git",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Políticas de Git en ACITY: branching strategy, conventional commits, code review y pull requests"
+  }
+}
