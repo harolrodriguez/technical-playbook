@@ -26,7 +26,10 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Ways of Working',
-      link: { type: 'generated-index' },
+      link: {
+        type: 'doc',
+        id: 'ways-of-working/intro',
+      },
       items: [
         'ways-of-working/scrum',
         'ways-of-working/estimacion',
