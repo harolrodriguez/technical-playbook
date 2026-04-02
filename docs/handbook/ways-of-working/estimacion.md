@@ -1,89 +1,67 @@
 ---
 sidebar_position: 2
-title: Estimación
+title: Estimación & Slicing
 ---
 
-Cómo estimamos el trabajo en ACITY: estimación relativa, story points y el proceso de estimación.
+Cómo dimensionamos el trabajo y cómo lo partimos cuando es demasiado grande. Son dos pasos del mismo flujo: primero estimas, y si supera los 8 puntos, sliceas.
+
+---
 
 ## Estimación Relativa
 
-La estimación relativa es una práctica ágil que permite dimensionar el trabajo comparándolo con otros elementos, en lugar de estimarlo en tiempo exacto.
+Estimamos comparando ítems entre sí, no en horas. Esto es más preciso porque considera complejidad, esfuerzo e incertidumbre a la vez.
 
-**Ventajas:**
-- Los equipos pueden evaluar con mayor precisión qué tan grande o complejo es un ítem respecto a otro
-- Considera factores como esfuerzo, complejidad e incertidumbre
-- Promueve decisiones más ágiles y realistas, enfocadas en flujo de valor
-
-## Story Points
-
-**Unidad**: Fibonacci (1, 2, 3, 5, 8, 13, 21)  
+**Unidad**: Fibonacci (1, 2, 3, 5, 8)  
 **Responsable**: Equipo de delivery  
-**Momento**: Refinamiento o planificación de sprint
+**Momento**: Refinamiento o Sprint Planning
 
-**Regla clave**: Si una historia supera los 8 puntos, debe ser dividida (slicing) antes de ser planificada en un sprint.
+**Regla clave**: Historia > 8 puntos → hay que slicear antes de planificarla.
 
-## Proceso de Estimación (3C)
+### Proceso 3C
 
-### 1. Card (Qué estamos estimando)
+**1. Card** — El PO presenta la historia y sus criterios de aceptación. El equipo entiende el objetivo, sin entrar aún en detalle técnico.
 
-- El Product Owner presenta la historia o ítem
-- Se comparten criterios de aceptación a nivel general
-- El equipo entiende el objetivo y valor del ítem (no entra aún en detalle técnico profundo)
+**2. Conversation** — El equipo conversa para aclarar dudas. Se usa una historia pivot como referencia (ej. "esta es un 3"). Se evalúan tres dimensiones:
+- **Complejidad** — dificultad técnica
+- **Esfuerzo** — cantidad de trabajo
+- **Incertidumbre** — nivel de desconocimiento o riesgo
 
-### 2. Conversation (Construimos entendimiento compartido)
+**3. Confirmation** — El equipo vota con Fibonacci. Si hay dispersión grande (ej. 2 vs 13), se discuten supuestos y se revota.
 
-El equipo conversa para aclarar dudas funcionales y técnicas.
+---
 
-**Uso del pivot (historia de referencia):**
-- Primera estimación del equipo: se define una historia base (ej. 3 puntos)
-- Inicio de cada sesión: se recuerda el pivot para alinear criterios
-- Ante dispersión: se vuelve al pivot para recalibrar
+## Slicing
 
-**Criterios de un buen pivot:**
-- Entendido por todo el equipo
-- Representativo (ni muy pequeño ni muy grande)
-- Comparable con otros ítems
+Cuando una historia es muy grande, se divide en partes más pequeñas que sigan siendo funcionales y entregables por sí solas.
 
-**Comparación relativa:**
-- Más simple → menor puntaje
-- Similar → mismo puntaje
-- Más complejo → mayor puntaje
+### Vertical, no horizontal
 
-**Tres dimensiones clave:**
-- **Complejidad**: Grado de dificultad técnica del trabajo
-- **Esfuerzo**: Cantidad de trabajo necesario para terminar la historia (desarrollo, pruebas, validación)
-- **Incertidumbre**: Nivel de desconocimiento o riesgo asociado al trabajo
+❌ **Horizontal** — cada capa técnica se entrega por separado (Backend → Frontend → QA). Sin valor funcional hasta el final.
 
-### 3. Confirmation (Alineamos y cerramos la estimación)
+✅ **Vertical** — cada slice incluye todas las capas necesarias para ser funcional. Entrega valor desde el primer corte y permite feedback inmediato.
 
-- El equipo estima usando Fibonacci (1, 2, 3, 5, 8, 13, 21)
-- Se puede usar herramientas como [Planning Poker](https://free-planning-poker.com)
-- Si hay diferencias relevantes (ej. 2, 3, 8, 13):
-  - Se discuten los supuestos
-  - Se busca entendimiento común
-  - Se revota si es necesario
+### Técnica SPIDR
 
-## Slicing (División de Historias > 8 puntos)
+| Técnica | Cuándo usarla | Ejemplo |
+|---------|--------------|---------|
+| **S – Spike** | Alta incertidumbre técnica o de negocio | Investigar integración con nuevo proveedor de pagos |
+| **P – Path** | Múltiples flujos o escenarios de usuario | Depósito con tarjeta / billetera digital / cripto |
+| **I – Interface** | Funcionalidad en múltiples canales o dispositivos | Torneos desde móvil / app / desktop |
+| **D – Data** | Volumen o tipos de datos complejos | Ranking online / físico / combinado / con exportación |
+| **R – Rule** | Múltiples reglas de negocio o validaciones | Bono sin requisitos → con depósito mínimo → con rollover |
 
-Cuando un ítem excede los 8 puntos, debe dividirse en partes más pequeñas que mantengan coherencia y entreguen valor.
+### Checklist de un buen slice
 
-**Técnica SPIDR:**
+- [ ] Tiene valor para el usuario (aunque sea parcial)
+- [ ] Es independiente — no bloquea a otros
+- [ ] Se puede probar — criterios claros
+- [ ] Cabe en un sprint
+- [ ] Incluye todas las capas necesarias (vertical)
 
-| Técnica | Descripción |
-|---------|------------|
-| **S – Spike** | Crear una historia de investigación para reducir incertidumbre |
-| **P – Paths** | Dividir por flujos alternativos o escenarios (ej: flujo feliz vs excepciones) |
-| **I – Interfaces** | Separar por tipos de interacción (UI, API, integración) |
-| **D – Data** | Dividir según tipos o fuentes de datos |
-| **R – Rules** | Separar por reglas de negocio o validaciones |
+---
 
-**Qué debe cumplir un buen slice:**
-- Tiene valor para el usuario (aunque sea parcial)
-- Es independiente (no bloquea a otros)
-- Se puede probar (criterios claros)
-- Cabe en un sprint
+## Ver también
 
-## Referencia
-
-- [Scrum & Agile Model](/handbook/ways-of-working/scrum)
-- [Definition of Ready / Done](/handbook/ways-of-working/definition-of-ready-done)
+- [Agilidad](./scrum)
+- [Priorización de Bugs](./priorizacion-de-bugs)
+- [Tech Debt](./tech-debt)

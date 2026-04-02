@@ -15,10 +15,8 @@ Estos no son reglas impuestas — son decisiones colectivas que el equipo ha tom
 
 Cómo organizamos el trabajo, estimamos esfuerzo y definimos cuándo algo está listo.
 
-- [Scrum & Agile Model](./scrum) — el modelo de trabajo iterativo del equipo
-- [Estimación](./estimacion) — cómo estimamos historias y tareas
-- [Slicing de Historias](./slicing) — cómo partimos trabajo en piezas entregables
-- [Definition of Ready / Done](./definition-of-ready-done) — criterios de entrada y salida de una historia
+- [Agilidad](./scrum) — el modelo de trabajo iterativo del equipo
+- [Estimación & Slicing](./estimacion) — cómo estimamos y partimos el trabajo
 
 ---
 

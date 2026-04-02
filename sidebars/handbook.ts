@@ -32,7 +32,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Metodología de trabajo',
+      label: 'Metodología de trabajo *',
       link: {
         type: 'doc',
         id: 'ways-of-working/intro',
@@ -41,8 +41,6 @@ const sidebars: SidebarsConfig = {
         'ways-of-working/scrum',
         'ways-of-working/estimacion',
         'ways-of-working/priorizacion-de-bugs',
-        'ways-of-working/definition-of-ready-done',
-        'ways-of-working/slicing',
         'ways-of-working/tech-debt',
         'ways-of-working/tech-talks',
       ],
