@@ -124,16 +124,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Metrics',
-      items: [
-        'metrics/dora-metrics',
-        'metrics/metricas-de-calidad',
-        'metrics/slos-slas',
-        'metrics/post-mortems',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Security',
       items: [
         'security/incidentes-de-seguridad',
