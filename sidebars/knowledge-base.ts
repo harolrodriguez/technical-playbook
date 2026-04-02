@@ -6,11 +6,13 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Git Guide',
+      link: { type: 'generated-index' },
       items: [
         'git-guide/README',
         {
           type: 'category',
           label: 'Fundamentos',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/fundamentos/que-es-git',
             'git-guide/fundamentos/por-que-usar-git',
@@ -21,6 +23,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Instalación y Configuración',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/instalacion-configuracion/instalar-git',
             'git-guide/instalacion-configuracion/git-config',
@@ -30,6 +33,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Configuración de Repositorio',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/configuracion-repositorio/git-init',
             'git-guide/configuracion-repositorio/git-clone',
@@ -38,6 +42,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Guardado de Cambios',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/guardado-cambios/git-add',
             'git-guide/guardado-cambios/git-commit',
@@ -47,6 +52,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Deshacer Cambios',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/deshacer-cambios/git-reset',
             'git-guide/deshacer-cambios/git-revert',
@@ -55,6 +61,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Ramas y Fusión',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/ramas-fusion/git-branch',
           ],
@@ -62,6 +69,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Operaciones Avanzadas',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/operaciones-avanzadas/git-rebase',
             'git-guide/operaciones-avanzadas/git-merge',
@@ -71,6 +79,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Temas Especiales',
+          link: { type: 'generated-index' },
           items: [
             'git-guide/temas-especiales/gitops',
             'git-guide/temas-especiales/git-alias',
@@ -83,6 +92,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Best Practices',
+      link: { type: 'generated-index' },
       items: [
         'best-practices/error-handling',
         'best-practices/state-management',
@@ -92,6 +102,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Troubleshooting',
+      link: { type: 'generated-index' },
       items: [
         'troubleshooting/common-issues',
         'troubleshooting/debugging-guide',

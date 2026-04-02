@@ -28,12 +28,7 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          id: 'handbook',
-          path: 'docs/handbook',
-          routeBasePath: 'handbook',
-          sidebarPath: require.resolve('./sidebars/handbook.ts'),
-        },
+        docs: false,
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
@@ -43,6 +38,15 @@ const config: Config = {
   ],
 
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'handbook',
+        path: 'docs/handbook',
+        routeBasePath: 'handbook',
+        sidebarPath: require.resolve('./sidebars/handbook.ts'),
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
