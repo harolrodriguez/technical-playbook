@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Responsabilidades por Rol
+title: Responsabilidades por Rol *
 ---
 
 Qué le pertenece a cada rol en términos de ownership técnico y de proceso. No jerarquía, sino claridad sobre quién decide qué.
@@ -45,7 +45,7 @@ Qué le pertenece a cada rol en términos de ownership técnico y de proceso. No
 - Cuándo escalar una decisión al Architect
 - Qué entra en el backlog técnico
 
-## Engineering Manager
+## Chapter Lead
 
 **Owns:**
 - El proceso de trabajo del equipo (Scrum, ceremonias, acuerdos)

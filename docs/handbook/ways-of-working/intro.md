@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-title: Ways of Working
+title: Metodología de trabajo
 ---
 
-# Ways of Working
+# Metodología de trabajo
 
 Los acuerdos de proceso que definen cómo trabaja el equipo día a día. Desde cómo planificamos hasta cómo manejamos deuda técnica y compartimos conocimiento.
 

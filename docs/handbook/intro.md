@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Introducción
+title: Introducción *
 ---
 
 # Engineering Handbook
@@ -12,8 +12,8 @@ Este handbook no es un conjunto de reglas impuestas desde arriba. Es el resultad
 ## Qué encontrarás aquí
 
 - **Por qué existimos** — propósito del equipo y principios que guían nuestras decisiones técnicas
-- **Team & Roles** — quién hace qué, cómo colaboramos y cómo escalamos
-- **Ways of Working** — Scrum, estimación, bugs, deuda técnica y más
+- **Equipo & Roles** — quién hace qué, cómo colaboramos y cómo escalamos
+- **Metodología de trabajo** — Scrum, estimación, bugs, deuda técnica y más
 - **Engineering Standards** — commits, PRs, code review, branching y documentación
 - **Composer Dev Workflow** — el patrón THC y cómo fluye el trabajo entre capas
 - **Tooling & Setup** — entorno local, herramientas aprobadas y uso de IA

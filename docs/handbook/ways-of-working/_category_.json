@@ -1,11 +1,9 @@
 {
-  "label": "Ways of Working",
   "position": 3,
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "title": "Ways of Working",
     "description": "Scrum, estimación, bugs, deuda técnica y los acuerdos de proceso del equipo."
   }
 }

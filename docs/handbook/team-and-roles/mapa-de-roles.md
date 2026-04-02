@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Mapa de Roles
+title: Mapa de Roles *
 ---
 
 Descripción de cada rol del equipo: quién es quién y qué hace cada uno.
@@ -23,7 +23,7 @@ Referente técnico del equipo o de un área. No necesariamente gestiona personas
 
 Es quien más contexto tiene sobre la arquitectura y quien más invierte en que el resto del equipo crezca técnicamente.
 
-## Engineering Manager (EM)
+## Chapter Lead
 
 Responsable del equipo como unidad: contratación, crecimiento, procesos y cultura. No gestiona el código, gestiona las condiciones para que el equipo trabaje bien.
 

@@ -13,7 +13,7 @@ Este handbook existe para cambiar eso. Es el lugar donde viven los acuerdos del 
 
 ## A quién aplica
 
-A todo el equipo de ingeniería, sin excepción de rol o seniority. Los estándares aquí documentados aplican a Backend, Frontend, QA, Tech Leads y Engineering Managers por igual.
+A todo el equipo de ingeniería, sin excepción de rol o seniority. Los estándares aquí documentados aplican a Backend, Frontend, QA, Tech Leads y Chapter Leads por igual.
 
 Cuando hay ambigüedad sobre si algo aplica a un rol específico, la sección de [Responsabilidades por Rol](/handbook/team-and-roles/responsabilidades-por-rol) es el lugar de referencia.
 
@@ -23,7 +23,7 @@ El handbook es propiedad colectiva del equipo. No hay un único dueño.
 
 En la práctica:
 - Cualquier persona puede proponer cambios mediante un PR
-- Los Tech Leads y Engineering Managers tienen responsabilidad de mantener sus secciones actualizadas
+- Los Tech Leads y Chapter Leads tienen responsabilidad de mantener sus secciones actualizadas
 - Los cambios estructurales o de principios pasan por el proceso de [RFC](/handbook/career-and-growth/rfc-process)
 
 ## Cómo evoluciona

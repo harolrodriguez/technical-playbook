@@ -5,8 +5,12 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'Why We Exist',
-      link: { type: 'generated-index' },
+      label: 'Por qué este documento *',
+      link: { 
+        type: 'generated-index',
+        slug: 'why-we-exist',
+        description: "El propósito del equipo y los principios que guían cada decisión técnica."
+      },
       items: [
         'why-we-exist/proposito-del-playbook',
         'why-we-exist/principios-de-ingenieria',
@@ -14,8 +18,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Team & Roles',
-      link: { type: 'generated-index' },
+      label: 'Equipo y Roles *',
+      link: {
+        type: 'generated-index',
+        slug: "roles-y-equipo",
+      },
       items: [
         'team-and-roles/mapa-de-roles',
         'team-and-roles/responsabilidades-por-rol',
@@ -25,7 +32,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Ways of Working',
+      label: 'Metodología de trabajo',
       link: {
         type: 'doc',
         id: 'ways-of-working/intro',
@@ -42,7 +49,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Engineering Standards',
+      label: 'Estándares de Ingeniería',
       link: { type: 'generated-index' },
       items: [
         {

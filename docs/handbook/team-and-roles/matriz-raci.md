@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Matriz RACI
+title: Matriz RACI *
 ---
 
 Mapa de responsabilidades por tipo de decisión técnica. R = Responsable, A = Aprobador, C = Consultado, I = Informado.

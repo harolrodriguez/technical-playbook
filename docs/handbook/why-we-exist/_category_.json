@@ -1,11 +1,8 @@
 {
-  "label": "Why We Exist",
   "position": 1,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index",
-    "title": "Why We Exist",
-    "description": "El propósito del equipo y los principios que guían cada decisión técnica."
+    "type": "generated-index"
   }
 }

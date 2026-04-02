@@ -1,11 +1,9 @@
 {
-  "label": "Team & Roles",
   "position": 2,
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "title": "Team & Roles",
     "description": "Quién hace qué, cómo colaboramos y cómo escalamos decisiones."
   }
 }
