@@ -156,7 +156,6 @@ const sidebars: SidebarsConfig = {
       label: 'Security',
       link: { type: 'generated-index' },
       items: [
-        'security/incidentes-de-seguridad',
         'security/gestion-de-dependencias',
         'security/minimo-privilegio',
       ],
