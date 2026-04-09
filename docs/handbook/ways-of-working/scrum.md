@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Agilidad
+title: Agilidad *
 ---
 
 # Agilidad

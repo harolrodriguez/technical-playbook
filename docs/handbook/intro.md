@@ -1,30 +1,39 @@
 ---
 sidebar_position: 1
-title: Introducción *
+title: Introducción
 ---
 
 # Engineering Handbook
 
-El contrato cultural y operativo de todo el equipo de ingeniería. Aquí viven los acuerdos, procesos y estándares que aplican a todos los roles, independientemente del stack o disciplina.
+El contrato cultural y operativo del equipo de ingeniería. Aquí viven los acuerdos, procesos y estándares que aplican a todos los roles, independientemente del stack o disciplina.
 
-Este handbook no es un conjunto de reglas impuestas desde arriba. Es el resultado de decisiones colectivas que el equipo ha tomado para trabajar mejor juntos. Si algo no tiene sentido, el proceso para cambiarlo está documentado en [RFC Process](/handbook/career-and-growth/rfc-process).
+No es un conjunto de reglas impuestas. Es el resultado de decisiones colectivas. Si algo no tiene sentido, el proceso para cambiarlo está en [RFC Process](/handbook/career-and-growth/rfc-process).
+
+Si algo está desactualizado, abre un PR. Este documento es de todos.
+
+---
+
+## Principios que guían el trabajo
+
+**Simplicidad sobre cleverness** — El código más fácil de mantener es el que cualquier persona puede leer sin contexto previo. Si necesitas explicar por qué lo hiciste así, probablemente hay una forma más simple.
+
+**Claridad de contratos** — Los contratos entre capas (APIs, interfaces, eventos) son explícitos y documentados. Nadie debería tener que leer la implementación para entender qué hace una interfaz.
+
+**Ownership real** — Quien construye algo es responsable de que funcione en producción. Eso incluye monitoreo y responder cuando algo falla.
+
+**Feedback rápido** — Ciclos cortos de validación: tests en segundos, deploys frecuentes, PRs pequeños. Cuanto más tarde descubres un error, más caro es corregirlo.
+
+**Deuda técnica explícita** — La deuda que no está documentada no existe para el equipo. Si tomamos un atajo, lo registramos. La deuda invisible destruye la velocidad a largo plazo.
+
+**Seguridad por diseño** — La seguridad no se agrega al final. Se considera desde el diseño: mínimo privilegio, validación de inputs, manejo correcto de secrets.
+
+---
 
 ## Qué encontrarás aquí
 
-- **Por qué existimos** — propósito del equipo y principios que guían nuestras decisiones técnicas
-- **Equipo & Roles** — quién hace qué, cómo colaboramos y cómo escalamos
-- **Metodología de trabajo** — Scrum, estimación, bugs, deuda técnica y más
-- **Engineering Standards** — commits, PRs, code review, branching y documentación
-- **Composer Dev Workflow** — el patrón THC y cómo fluye el trabajo entre capas
-- **Tooling & Setup** — entorno local, herramientas aprobadas y uso de IA
-- **Security** — secrets, privilegios, dependencias e incidentes
-- **Metrics** — DORA, calidad, SLOs y post-mortems
-- **Career & Growth** — feedback técnico y cómo proponer cambios al equipo
-
-## Cómo usarlo
-
-Si eres nuevo en el equipo, empieza por [Propósito del Playbook](/handbook/why-we-exist/proposito-del-playbook) y [Mapa de Roles](/handbook/team-and-roles/mapa-de-roles).
-
-Si buscas algo específico, usa la barra de búsqueda o navega por la sección correspondiente.
-
-Si algo está desactualizado o incorrecto, abre un PR con la corrección. Este documento es de todos.
+- [Team & Roles](/handbook/team-and-roles/mapa-de-roles) — quién hace qué y cómo colaboramos
+- [Ways of Working](/handbook/ways-of-working/intro) — Scrum, estimación, bugs y deuda técnica
+- [Engineering Standards](/handbook/engineering-standards) — git, code quality, API design y más
+- [Tooling & Setup](/handbook/tooling-and-setup/setup-entorno-local) — entorno local y herramientas aprobadas
+- [Security](/handbook/security/secrets-management) — secrets, privilegios, dependencias e incidentes
+- [Career & Growth](/handbook/career-and-growth/feedback-tecnico) — feedback técnico y RFCs

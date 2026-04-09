@@ -5,19 +5,6 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'Por qué este documento *',
-      link: { 
-        type: 'generated-index',
-        slug: 'why-we-exist',
-        description: "El propósito del equipo y los principios que guían cada decisión técnica."
-      },
-      items: [
-        'why-we-exist/proposito-del-playbook',
-        'why-we-exist/principios-de-ingenieria',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Equipo y Roles *',
       link: {
         type: 'generated-index',
@@ -25,7 +12,6 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'team-and-roles/mapa-de-roles',
-        'team-and-roles/responsabilidades-por-rol',
         'team-and-roles/matriz-raci',
         'team-and-roles/como-colaborar-entre-roles',
       ],
@@ -42,7 +28,6 @@ const sidebars: SidebarsConfig = {
         'ways-of-working/estimacion',
         'ways-of-working/priorizacion-de-bugs',
         'ways-of-working/tech-debt',
-        'ways-of-working/tech-talks',
       ],
     },
     {
@@ -52,7 +37,7 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'category',
-          label: 'Git',
+          label: 'Control de código (git)',
           link: { type: 'generated-index' },
           items: [
             'engineering-standards/git/branching-strategy',
@@ -70,16 +55,6 @@ const sidebars: SidebarsConfig = {
             'engineering-standards/code-quality/testing-philosophy',
             'engineering-standards/code-quality/linting-formatting',
             'engineering-standards/code-quality/performance-budgets',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Security',
-          link: { type: 'generated-index' },
-          items: [
-            'engineering-standards/security/secrets-management',
-            'engineering-standards/security/dependency-scanning',
-            'engineering-standards/security/minimum-privilege',
           ],
         },
         {
@@ -154,6 +129,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'career-and-growth/feedback-tecnico',
         'career-and-growth/rfc-process',
+        'career-and-growth/tech-talks',
       ],
     },
     {
@@ -161,8 +137,10 @@ const sidebars: SidebarsConfig = {
       label: 'Security',
       link: { type: 'generated-index' },
       items: [
-        'security/gestion-de-dependencias',
+        'security/secrets-management',
         'security/minimo-privilegio',
+        'security/dependencias',
+        'security/incidentes-de-seguridad',
       ],
     },
   ],
