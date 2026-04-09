@@ -11,7 +11,7 @@ Cómo dimensionamos el trabajo y cómo lo partimos cuando es demasiado grande. S
 
 Estimamos comparando ítems entre sí, no en horas. Esto es más preciso porque considera complejidad, esfuerzo e incertidumbre a la vez.
 
-**Unidad**: Fibonacci (1, 2, 3, 5, 8)  
+**Unidad**: Fibonacci (1, 2, 3, 5, 8, 13, 21)  
 **Responsable**: Equipo de delivery  
 **Momento**: Refinamiento o Sprint Planning
 

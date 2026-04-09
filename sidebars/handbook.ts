@@ -80,15 +80,6 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Accessibility',
-          link: { type: 'generated-index' },
-          items: [
-            'engineering-standards/accessibility/wcag-principles',
-            'engineering-standards/accessibility/testing-checklist',
-          ],
-        },
-        {
-          type: 'category',
           label: 'Documentation',
           link: { type: 'generated-index' },
           items: [
