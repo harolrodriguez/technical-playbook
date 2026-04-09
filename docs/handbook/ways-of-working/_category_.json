@@ -1,9 +1,10 @@
 {
+  "label": "Metodología de trabajo",
   "position": 3,
   "collapsible": true,
   "collapsed": true,
   "link": {
-    "type": "generated-index",
-    "description": "Scrum, estimación, bugs, deuda técnica y los acuerdos de proceso del equipo."
+    "type": "doc",
+    "id": "ways-of-working/intro"
   }
 }
