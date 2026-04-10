@@ -65,4 +65,4 @@ Links a ADRs si existen.
 
 Al mismo tiempo que escribes el código, no después. La documentación que se deja para después no se escribe.
 
-Si una feature no está documentada, no cumple el [Definition of Done](/handbook/ways-of-working/definition-of-ready-done).
+Si una feature no está documentada, no cumple el [Definition of Done](/handbook/ways-of-working/scrum).

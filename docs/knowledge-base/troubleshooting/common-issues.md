@@ -13,7 +13,7 @@ Problemas comunes que encontrarás durante el desarrollo y cómo resolverlos.
 
 **Solución**:
 1. Verifica que SSH está configurado: `ssh -T git@github.com`
-2. Si falla, sigue [Setup SSH](/knowledge-base/git-guide/setup-ssh)
+2. Si falla, sigue la sección de [Instalación y Configuración](/knowledge-base/intro) en la Base de Conocimientos
 3. Si ya está configurado, agrega la clave al ssh-agent: `ssh-add ~/.ssh/id_ed25519`
 
 ### "Your branch is ahead of 'origin/main' by X commits"
@@ -29,7 +29,7 @@ git push origin branch-name
 
 **Problema**: No puedes mergear porque hay conflictos.
 
-**Solución**: Ver [Conflict Resolution](/knowledge-base/git-guide/conflict-resolution)
+**Solución**: Ver la sección de [Operaciones Avanzadas](/knowledge-base/intro) en la Base de Conocimientos
 
 ### "Detached HEAD"
 

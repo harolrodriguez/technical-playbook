@@ -86,6 +86,6 @@ Los ítems avanzan por estados con políticas de salida claras. No se avanza sin
 ## Ver también
 
 - [Estimación](./estimacion)
-- [Slicing de Historias](./slicing)
+- [Slicing de Historias](./estimacion)
 - [Priorización de Bugs](./priorizacion-de-bugs)
 - [Tech Debt](./tech-debt)

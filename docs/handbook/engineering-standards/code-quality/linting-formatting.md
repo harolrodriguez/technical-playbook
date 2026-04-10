@@ -71,7 +71,7 @@ Usa Husky para ejecutar linting antes de commit:
 npx husky add .husky/pre-commit "npm run lint && npm run format"
 ```
 
-Ver [Git Hooks](/knowledge-base/git-guide/git-hooks)
+Ver [Git Hooks](https://typicode.github.io/husky/)
 
 ## Configuración por proyecto
 
@@ -106,5 +106,5 @@ Solución: Crea una configuración base compartida en un paquete npm.
 
 ## Referencia
 
-- Frontend: [Estándares de Código Frontend](/frontend/quality/estandares-de-codigo)
+- Frontend: [Estándares de Código Frontend](/frontend/standards/estandares-de-codigo)
 - Backend: [Estándares de Código Backend](/backend/quality/estandares-de-codigo)

@@ -15,7 +15,7 @@ title: Estándares de Código
 | [Manejo de Estado](./manejo-de-estado) | Cuándo usar estado local, de servidor o global |
 | [Integración de APIs](./integracion-apis) | Cómo consumimos APIs desde el frontend |
 | [Jerarquía de Capas](./jerarquia-capas) | z-index, stacking context y orden visual |
-| [Accesibilidad](./accesibilidad) | Reglas mínimas que todo dev debe cumplir |
+| [Accesibilidad](./accessibility/intro) | Reglas mínimas que todo dev debe cumplir |
 | [Seguridad Frontend](./seguridad-frontend) | XSS, tokens, inputs y variables de entorno |
 
 ## La regla de oro

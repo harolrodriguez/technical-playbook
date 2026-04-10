@@ -33,7 +33,7 @@ Si algo está desactualizado, abre un PR. Este documento es de todos.
 
 - [Team & Roles](/handbook/team-and-roles/mapa-de-roles) — quién hace qué y cómo colaboramos
 - [Ways of Working](/handbook/ways-of-working/intro) — Scrum, estimación, bugs y deuda técnica
-- [Engineering Standards](/handbook/engineering-standards) — git, code quality, API design y más
+- [Engineering Standards](/handbook/engineering-standards/git/code-review) — git, code quality, API design y más
 - [Tooling & Setup](/handbook/tooling-and-setup/setup-entorno-local) — entorno local y herramientas aprobadas
 - [Security](/handbook/security/secrets-management) — secrets, privilegios, dependencias e incidentes
 - [Career & Growth](/handbook/career-and-growth/feedback-tecnico) — feedback técnico y RFCs

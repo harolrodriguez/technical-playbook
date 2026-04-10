@@ -89,6 +89,6 @@ Solución: Enfócate en tests que aportan valor. Elimina tests redundantes.
 
 ## Referencia
 
-- Frontend: [Testing Frontend](/frontend/quality/testing)
+- Frontend: [Testing Frontend](/frontend/quality/unit-testing)
 - Backend: [Testing Backend](/backend/quality/testing)
 - QA: [Testing Strategy](/qa/strategy/piramide-de-testing)

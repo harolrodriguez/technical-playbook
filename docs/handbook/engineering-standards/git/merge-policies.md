@@ -122,7 +122,7 @@ Si hay conflictos, el **autor del PR** es responsable de resolverlos:
    git rebase origin/develop  # o main, según corresponda
    ```
 
-2. Resuelve los conflictos manualmente (ver [Conflict Resolution](/knowledge-base/git-guide/conflict-resolution))
+2. Resuelve los conflictos manualmente (ver la sección de [Operaciones Avanzadas](/knowledge-base/intro) en la Base de Conocimientos)
 
 3. Haz push de los cambios:
    ```bash
@@ -203,7 +203,7 @@ Antes de hacer click en "Merge", verifica:
 - [ ] No hay conflictos sin resolver
 - [ ] La rama está actualizada con el destino
 - [ ] El título y descripción del PR son precisos
-- [ ] Los commits siguen [Conventional Commits](/handbook/engineering-standards/conventional-commits)
+- [ ] Los commits siguen [Conventional Commits](/handbook/engineering-standards/git/conventional-commits)
 - [ ] No hay código de debug, console.logs, o TODOs sin ticket
 - [ ] Los tests pasan localmente (si es un cambio sensible)
 

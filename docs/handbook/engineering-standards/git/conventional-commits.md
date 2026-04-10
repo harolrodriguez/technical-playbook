@@ -118,7 +118,7 @@ Ambas formas son válidas. El `!` es más visible en el subject; el footer permi
 
 ## Relación con las ramas
 
-Los tipos de commit están alineados con los tipos de ramas definidos en la [Branching Strategy](/handbook/engineering-standards/branching-strategy):
+Los tipos de commit están alineados con los tipos de ramas definidos en la [Branching Strategy](/handbook/engineering-standards/git/branching-strategy):
 
 | Rama | Tipos de commit esperados |
 |------|--------------------------|

@@ -15,7 +15,7 @@ Un PR sin descripción obliga al reviewer a leer todo el código para entender q
 
 ## Alineación con GitFlow
 
-Cada PR debe seguir el flujo definido en la [Branching Strategy](/handbook/engineering-standards/branching-strategy):
+Cada PR debe seguir el flujo definido en la [Branching Strategy](/handbook/engineering-standards/git/branching-strategy):
 
 | Origen | Destino | Cuándo |
 |--------|---------|--------|
@@ -32,7 +32,7 @@ Nunca se abre un PR de `feature/*` directamente a `main`.
 
 ### Título
 
-Sigue el formato de [Conventional Commits](/handbook/engineering-standards/conventional-commits). Debe describir qué hace el PR, no qué archivos toca.
+Sigue el formato de [Conventional Commits](/handbook/engineering-standards/git/conventional-commits). Debe describir qué hace el PR, no qué archivos toca.
 
 ```
 feat(checkout): add address validation before payment step

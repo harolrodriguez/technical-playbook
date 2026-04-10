@@ -20,7 +20,7 @@ El code review no existe solo para encontrar errores. Existe para:
 Antes de leer una sola línea de código, verifica:
 
 1. ¿El PR tiene título y descripción claros?
-2. ¿El PR apunta a la rama correcta según [GitFlow](/handbook/engineering-standards/branching-strategy)?
+2. ¿El PR apunta a la rama correcta según [GitFlow](/handbook/engineering-standards/git/branching-strategy)?
 3. ¿El CI está pasando?
 4. ¿El tamaño del PR es razonable (menos de 400 líneas)?
 

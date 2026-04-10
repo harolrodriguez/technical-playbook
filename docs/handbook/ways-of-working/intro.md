@@ -33,4 +33,4 @@ Cómo priorizamos lo que falla y lo que acumulamos.
 
 Espacios para crecer y compartir como equipo.
 
-- [Tech Talks](./tech-talks) — formato y frecuencia de las charlas técnicas internas
+- [Tech Talks](/handbook/career-and-growth/tech-talks) — formato y frecuencia de las charlas técnicas internas

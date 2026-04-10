@@ -143,6 +143,6 @@ Authorization: Bearer token
 
 ## Referencia
 
-- Backend: [API Design Backend](/backend/api-design)
+- Backend: [API Design Backend](/backend/api-design/contratos-de-api)
 - Versionado: [API Versioning](/handbook/engineering-standards/api-design/versioning)
 - Errores: [Error Handling](/handbook/engineering-standards/api-design/error-handling)

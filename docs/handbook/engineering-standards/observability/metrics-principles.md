@@ -96,6 +96,6 @@ Solución: Calibra umbrales basado en datos reales.
 
 ## Referencia
 
-- Backend: [Metrics Backend](/backend/observability)
+- Backend: [Metrics Backend](/backend/observability/logging)
 - Frontend: [Performance Frontend](/frontend/quality/performance)
 - QA: [Load Testing](/qa/performance-security/load-testing)

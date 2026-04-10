@@ -6,7 +6,7 @@ sidebar_position: 0
 
 Bienvenido a la Base de Conocimientos. Aquí encontrarás guías técnicas profundas, patrones de desarrollo y soluciones a problemas comunes.
 
-A diferencia del [Handbook](/handbook), que define **qué debes hacer**, la Base de Conocimientos te enseña **cómo hacerlo** y **por qué**.
+A diferencia del [Handbook](/handbook/intro), que define **qué debes hacer**, la Base de Conocimientos te enseña **cómo hacerlo** y **por qué**.
 
 ## Secciones
 
@@ -16,13 +16,13 @@ Guías técnicas sobre Git: desde configuración básica hasta estrategias avanz
 
 **Cuándo leer**: Cuando necesites profundizar en Git más allá de lo básico.
 
-### [Best Practices](/knowledge-base/best-practices)
+### [Best Practices](/knowledge-base/best-practices/async-patterns)
 
 Patrones y prácticas recomendadas para escribir código robusto: manejo de errores, gestión de estado, y patrones asincronos.
 
 **Cuándo leer**: Cuando estés diseñando una solución y quieras evitar problemas comunes.
 
-### [Troubleshooting](/knowledge-base/troubleshooting)
+### [Troubleshooting](/knowledge-base/troubleshooting/common-issues)
 
 Soluciones a problemas comunes que encontrarás durante el desarrollo, y técnicas de debugging.
 

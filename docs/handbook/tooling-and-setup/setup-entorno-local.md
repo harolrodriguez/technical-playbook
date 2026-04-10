@@ -11,7 +11,7 @@ Antes de empezar, asegúrate de tener:
 
 - macOS 13+ o Ubuntu 22.04+
 - Acceso al repositorio en GitHub (pedir al EM o Tech Lead)
-- Acceso al gestor de secrets del equipo (ver [Secrets y Variables](/handbook/security/secrets-y-variables))
+- Acceso al gestor de secrets del equipo (ver [Secrets y Variables](/handbook/security/secrets-management))
 
 ## 1. Herramientas base
 
@@ -34,7 +34,7 @@ git config --global user.email "tu@email.com"
 git config --global pull.rebase true
 ```
 
-Configura SSH para GitHub: ver [GitHub con SSH](/handbook/engineering-standards/github-ssh).
+Configura SSH para GitHub: ver la sección de [Instalación y Configuración](/knowledge-base/intro) en la Base de Conocimientos.
 
 ## 2. Clonar los repositorios
 

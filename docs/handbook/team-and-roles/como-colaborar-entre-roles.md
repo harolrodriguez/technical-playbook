@@ -9,7 +9,7 @@ Guía práctica de cómo interactúan los roles entre sí: cuándo involucrar a 
 
 La colaboración más frecuente. Sucede en code reviews, pair programming y diseño de soluciones.
 
-- Los code reviews son conversaciones técnicas, no juicios. Ver [Code Review](/handbook/engineering-standards/code-review)
+- Los code reviews son conversaciones técnicas, no juicios. Ver [Code Review](/handbook/engineering-standards/git/code-review)
 - Si hay desacuerdo técnico que no se resuelve entre dos Devs, el Tech Lead es el desempate
 - Pedir ayuda no es señal de debilidad; bloquearse en silencio sí es un problema
 

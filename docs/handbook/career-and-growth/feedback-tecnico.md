@@ -23,7 +23,7 @@ El problema es que el feedback técnico mal dado genera defensividad, no aprendi
 
 ## Feedback en code review
 
-El code review es el momento más natural para feedback técnico. Ver [Code Review](/handbook/engineering-standards/code-review) para el proceso completo.
+El code review es el momento más natural para feedback técnico. Ver [Code Review](/handbook/engineering-standards/git/code-review) para el proceso completo.
 
 Regla clave: distinguir entre lo que es bloqueante (debe cambiar) y lo que es una sugerencia (sería mejor, pero no es obligatorio).
 
