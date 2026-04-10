@@ -3,21 +3,377 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 6rem 2rem;
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(20px); }
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroText {
+  animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.buttons {
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+}
+
+.heroSubtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem 0;
+  opacity: 0.95;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  margin: 0 0 2.5rem 0;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.heroCTA {
   display: flex;
-  align-items: center;
+  gap: 1rem;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  font-weight: 600;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 4rem 1rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.3rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+
+  .heroCTA {
+    flex-direction: column;
+  }
+
+  .ctaButton {
+    width: 100%;
+  }
+}
+
+/* Sections */
+.sections {
+  padding: 5rem 2rem;
+  background: #f8f9fa;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionHeader h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  color: #1a1a1a;
+}
+
+.sectionHeader p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+.sectionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.sectionCard {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sectionCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.sectionCard:hover {
+  border-color: #667eea;
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.15);
+  transform: translateY(-4px);
+}
+
+.sectionCard:hover::before {
+  left: 100%;
+}
+
+.sectionIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.sectionCard h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+  color: #1a1a1a;
+}
+
+.sectionCard p {
+  color: #666;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.sectionItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  background: #f0f2f5;
+  color: #667eea;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.sectionArrow {
+  font-size: 1.5rem;
+  color: #667eea;
+  font-weight: 700;
+  transition: transform 0.3s ease;
+}
+
+.sectionCard:hover .sectionArrow {
+  transform: translateX(4px);
+}
+
+/* Principles */
+.principles {
+  padding: 5rem 2rem;
+  background: white;
+}
+
+.principlesHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.principlesHeader h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  color: #1a1a1a;
+}
+
+.principlesHeader p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+.principlesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.principleCard {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-left: 4px solid #667eea;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.principleCard:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.1);
+}
+
+.principleCard h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+  color: #1a1a1a;
+}
+
+.principleCard p {
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* CTA Section */
+.cta {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.ctaContent h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+}
+
+.ctaContent p {
+  font-size: 1.1rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.95;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta .button {
+  font-weight: 600;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background: #1a1a1a;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footerMeta {
+  opacity: 0.7;
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .sections,
+  .principles,
+  .cta {
+    padding: 3rem 1rem;
+  }
+
+  .sectionHeader h2,
+  .principlesHeader h2 {
+    font-size: 1.8rem;
+  }
+
+  .sectionHeader p,
+  .principlesHeader p {
+    font-size: 1rem;
+  }
+
+  .ctaContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .ctaContent p {
+    font-size: 1rem;
+  }
+
+  .sectionGrid,
+  .principlesGrid {
+    grid-template-columns: 1fr;
+  }
 }
