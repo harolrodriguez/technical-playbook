@@ -1,0 +1,10 @@
+{
+  "label": "Micro — Sistema THC",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Cómo estructurar las capas internas de un feature. Aplica a cualquier arquitectura macro."
+  }
+}

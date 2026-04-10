@@ -1,0 +1,10 @@
+{
+  "label": "Standards",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Cómo escribimos código frontend. Convenciones que aplican a todo dev en todo feature."
+  }
+}
