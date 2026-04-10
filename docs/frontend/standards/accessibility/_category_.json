@@ -1,0 +1,10 @@
+{
+  "label": "Accesibilidad",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Criterios WCAG 2.2 aplicados al desarrollo frontend. Nivel AA como mínimo obligatorio."
+  }
+}
